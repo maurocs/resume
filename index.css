@@ -108,7 +108,7 @@ header {
 header > img {
     height: 200px;
     border-radius: 50%;
-    box-shadow: 0 0 15px rgb(20, 57, 59);
+    box-shadow: 0 0 15px #002b7A;
 }
 
 header .personal__info {
@@ -208,6 +208,5 @@ main::before {
     content: " ";
     width: 100%;
     height: 5px;
-    background-color: black;
-    background: rgb(20, 57, 59);
+    background: linear-gradient(90deg, #04527C 0%, #50007A 100%);;
 }

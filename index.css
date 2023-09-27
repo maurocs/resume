@@ -161,21 +161,21 @@ main {
     min-width: 300px;
 }
 
-.section h2 {
+section h2 {
     font-weight: 100;
 }
 
-.section h3 {
+section h3 {
     font-size: 1rem;
     font-weight: 700;
 }
 
-.section h4 {
+section h4 {
     font-size: 1rem;
     font-weight: 400;
 }
 
-.section h5 {
+section h5 {
     font-size: 1rem;
     font-weight: 500;
 }

@@ -86,7 +86,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    padding: 20px;
+    padding: 40px;
     max-width: 1024px;
 }
 
@@ -197,7 +197,6 @@ main {
 }
 
 footer {
-    position: sticky;
     padding: 15px;
     font-size: 12px;
     color: rgb(70,70,70);

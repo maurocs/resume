@@ -86,7 +86,7 @@ html {
 body {
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 20px;
     max-width: 1024px;
 }
 
@@ -95,8 +95,8 @@ header {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 30px;
-    padding-bottom: 30px;
+    gap: 20px;
+    padding-bottom: 20px;
     border-bottom: 3px solid black;
     align-items: center;
 }
@@ -107,7 +107,7 @@ header {
 }
 
 header > img {
-    height: 250px;
+    height: 200px;
     border-radius: 50%;
     box-shadow: 0 0 10px rgba(89,89,89,1);
 }
@@ -138,20 +138,27 @@ header .personal__info a {
 }
 
 main {
-    margin-top: 30px;
-    display: grid;
-    grid-template-columns: 1.5fr 3fr;
-    gap: 30px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 0 1 auto;
+    gap: 20px;
 }
 
 .column {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 20px;
 }
 
-.section {
-    
+.left__col {
+    flex: 0 1 300px;
+}
+
+.right__col {
+    flex: 1 1 300px;
+    max-width: 600px;
+    min-width: 300px;
 }
 
 .section h2 {
@@ -179,4 +186,22 @@ main {
 
 .list__item::before {
     content: '• ';
+}
+
+.list__item {
+    font-weight: 300;
+}
+
+.cont__list {
+    font-weight: 300;
+}
+
+footer {
+    position: sticky;
+    padding: 15px;
+    font-size: 12px;
+    color: rgb(70,70,70);
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }

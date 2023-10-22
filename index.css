@@ -106,14 +106,15 @@ header {
 }
 
 header > img {
-    height: 200px;
+    height: 170px;
     border-radius: 50%;
-    box-shadow: 0 0 15px #002b7A;
+    box-shadow: 0 0 15px #002b7a75;
+    border: 6px solid #002b7a3a;
 }
 
 header .personal__info {
     font-family: 'Lato';
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     display: flex;
     flex-direction: column;
 }
@@ -181,6 +182,10 @@ section h5 {
 
 .subsection {
     margin-bottom: 10px;
+}
+
+.subsection > p{
+    font-weight: 300;
 }
 
 .list__item::before {

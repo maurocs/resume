@@ -70,7 +70,6 @@
     font-weight: 900;
     src: url('./fonts/lato-v24-latin_latin-ext-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
-
 html {
     font-family: 'Lato';
     width: 100%;
@@ -78,18 +77,15 @@ html {
     justify-content: center;
     align-items: center;
 }
-
 * {
     margin: 0;
 }
-
 body {
     display: flex;
     flex-direction: column;
     padding: 40px;
     max-width: 1024px;
 }
-
 header {
     display: flex;
     flex-wrap: wrap;
@@ -99,44 +95,37 @@ header {
     padding-bottom: 20px;
     align-items: center;
 }
-
 .icon {
     margin: 0;
     height: 18px;
 }
 
 header > img {
-    height: 170px;
+    height: 200px;
     border-radius: 50%;
-    box-shadow: 0 0 15px #002b7a75;
-    border: 6px solid #002b7a3a;
+    box-shadow: 0 0 15px #002b7A;
 }
 
 header .personal__info {
     font-family: 'Lato';
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     display: flex;
     flex-direction: column;
 }
-
 header h1 {
     font-weight: 100;
 }
-
 header h1 span {
     font-weight: 400;
 }
-
 header .personal__info p {
     font-weight: 300;
 }
-
 header .personal__info a {
     font-weight: 300;
     text-decoration: none;
     color: black;
 }
-
 main {
     margin-top: 20px;
     display: flex;
@@ -144,62 +133,47 @@ main {
     flex: 0 1 auto;
     gap: 20px;
 }
-
 .column {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
-
 .left__col {
     flex: 0 1 300px;
 }
-
 .right__col {
     flex: 1 1 300px;
     max-width: 600px;
     min-width: 300px;
 }
-
 section h2 {
     font-weight: 100;
 }
-
 section h3 {
     font-size: 1rem;
     font-weight: 700;
 }
-
 section h4 {
     font-size: 1rem;
     font-weight: 400;
 }
-
 section h5 {
     font-size: 1rem;
     font-weight: 500;
 }
-
 .subsection {
     margin-bottom: 10px;
-}
-
-.subsection > p{
-    font-weight: 300;
 }
 
 .list__item::before {
     content: '• ';
 }
-
 .list__item {
     font-weight: 300;
 }
-
 .cont__list {
     font-weight: 300;
 }
-
 footer {
     padding: 15px;
     font-size: 12px;
@@ -208,7 +182,6 @@ footer {
     align-items: center;
     justify-content: center;
 }
-
 main::before {
     content: " ";
     width: 100%;
